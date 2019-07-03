@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23F7557822CCEE260072B4AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7557722CCEE260072B4AC /* AppDelegate.swift */; };
+		23F7557A22CCEE260072B4AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7557922CCEE260072B4AC /* ViewController.swift */; };
+		23F7557D22CCEE260072B4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F7557B22CCEE260072B4AC /* Main.storyboard */; };
+		23F7557F22CCEE270072B4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F7557E22CCEE270072B4AC /* Assets.xcassets */; };
+		23F7558222CCEE270072B4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F7558022CCEE270072B4AC /* LaunchScreen.storyboard */; };
+		23F7558D22CCEE270072B4AC /* DesafioSantanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7558C22CCEE270072B4AC /* DesafioSantanderTests.swift */; };
+		23F7559822CCEE270072B4AC /* DesafioSantanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7559722CCEE270072B4AC /* DesafioSantanderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23F7558922CCEE270072B4AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23F7556C22CCEE260072B4AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F7557322CCEE260072B4AC;
+			remoteInfo = DesafioSantander;
+		};
+		23F7559422CCEE270072B4AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23F7556C22CCEE260072B4AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F7557322CCEE260072B4AC;
+			remoteInfo = DesafioSantander;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23F7557422CCEE260072B4AC /* DesafioSantander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioSantander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F7557722CCEE260072B4AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23F7557922CCEE260072B4AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23F7557C22CCEE260072B4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23F7557E22CCEE270072B4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23F7558122CCEE270072B4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23F7558322CCEE270072B4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F7558822CCEE270072B4AC /* DesafioSantanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioSantanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F7558C22CCEE270072B4AC /* DesafioSantanderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioSantanderTests.swift; sourceTree = "<group>"; };
+		23F7558E22CCEE270072B4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F7559322CCEE270072B4AC /* DesafioSantanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioSantanderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F7559722CCEE270072B4AC /* DesafioSantanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioSantanderUITests.swift; sourceTree = "<group>"; };
+		23F7559922CCEE270072B4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23F7557122CCEE260072B4AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7558522CCEE270072B4AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7559022CCEE270072B4AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23F7556B22CCEE260072B4AC = {
+			isa = PBXGroup;
+			children = (
+				23F7557622CCEE260072B4AC /* DesafioSantander */,
+				23F7558B22CCEE270072B4AC /* DesafioSantanderTests */,
+				23F7559622CCEE270072B4AC /* DesafioSantanderUITests */,
+				23F7557522CCEE260072B4AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23F7557522CCEE260072B4AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23F7557422CCEE260072B4AC /* DesafioSantander.app */,
+				23F7558822CCEE270072B4AC /* DesafioSantanderTests.xctest */,
+				23F7559322CCEE270072B4AC /* DesafioSantanderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23F7557622CCEE260072B4AC /* DesafioSantander */ = {
+			isa = PBXGroup;
+			children = (
+				23F7557722CCEE260072B4AC /* AppDelegate.swift */,
+				23F7557922CCEE260072B4AC /* ViewController.swift */,
+				23F7557B22CCEE260072B4AC /* Main.storyboard */,
+				23F7557E22CCEE270072B4AC /* Assets.xcassets */,
+				23F7558022CCEE270072B4AC /* LaunchScreen.storyboard */,
+				23F7558322CCEE270072B4AC /* Info.plist */,
+			);
+			path = DesafioSantander;
+			sourceTree = "<group>";
+		};
+		23F7558B22CCEE270072B4AC /* DesafioSantanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				23F7558C22CCEE270072B4AC /* DesafioSantanderTests.swift */,
+				23F7558E22CCEE270072B4AC /* Info.plist */,
+			);
+			path = DesafioSantanderTests;
+			sourceTree = "<group>";
+		};
+		23F7559622CCEE270072B4AC /* DesafioSantanderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23F7559722CCEE270072B4AC /* DesafioSantanderUITests.swift */,
+				23F7559922CCEE270072B4AC /* Info.plist */,
+			);
+			path = DesafioSantanderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23F7557322CCEE260072B4AC /* DesafioSantander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F7559C22CCEE270072B4AC /* Build configuration list for PBXNativeTarget "DesafioSantander" */;
+			buildPhases = (
+				23F7557022CCEE260072B4AC /* Sources */,
+				23F7557122CCEE260072B4AC /* Frameworks */,
+				23F7557222CCEE260072B4AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioSantander;
+			productName = DesafioSantander;
+			productReference = 23F7557422CCEE260072B4AC /* DesafioSantander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23F7558722CCEE270072B4AC /* DesafioSantanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F7559F22CCEE270072B4AC /* Build configuration list for PBXNativeTarget "DesafioSantanderTests" */;
+			buildPhases = (
+				23F7558422CCEE270072B4AC /* Sources */,
+				23F7558522CCEE270072B4AC /* Frameworks */,
+				23F7558622CCEE270072B4AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F7558A22CCEE270072B4AC /* PBXTargetDependency */,
+			);
+			name = DesafioSantanderTests;
+			productName = DesafioSantanderTests;
+			productReference = 23F7558822CCEE270072B4AC /* DesafioSantanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23F7559222CCEE270072B4AC /* DesafioSantanderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F755A222CCEE270072B4AC /* Build configuration list for PBXNativeTarget "DesafioSantanderUITests" */;
+			buildPhases = (
+				23F7558F22CCEE270072B4AC /* Sources */,
+				23F7559022CCEE270072B4AC /* Frameworks */,
+				23F7559122CCEE270072B4AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F7559522CCEE270072B4AC /* PBXTargetDependency */,
+			);
+			name = DesafioSantanderUITests;
+			productName = DesafioSantanderUITests;
+			productReference = 23F7559322CCEE270072B4AC /* DesafioSantanderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23F7556C22CCEE260072B4AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = bianca.dos.s.sobral;
+				TargetAttributes = {
+					23F7557322CCEE260072B4AC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					23F7558722CCEE270072B4AC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 23F7557322CCEE260072B4AC;
+					};
+					23F7559222CCEE270072B4AC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 23F7557322CCEE260072B4AC;
+					};
+				};
+			};
+			buildConfigurationList = 23F7556F22CCEE260072B4AC /* Build configuration list for PBXProject "DesafioSantander" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23F7556B22CCEE260072B4AC;
+			productRefGroup = 23F7557522CCEE260072B4AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23F7557322CCEE260072B4AC /* DesafioSantander */,
+				23F7558722CCEE270072B4AC /* DesafioSantanderTests */,
+				23F7559222CCEE270072B4AC /* DesafioSantanderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23F7557222CCEE260072B4AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F7558222CCEE270072B4AC /* LaunchScreen.storyboard in Resources */,
+				23F7557F22CCEE270072B4AC /* Assets.xcassets in Resources */,
+				23F7557D22CCEE260072B4AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7558622CCEE270072B4AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7559122CCEE270072B4AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23F7557022CCEE260072B4AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F7557A22CCEE260072B4AC /* ViewController.swift in Sources */,
+				23F7557822CCEE260072B4AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7558422CCEE270072B4AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F7558D22CCEE270072B4AC /* DesafioSantanderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7558F22CCEE270072B4AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F7559822CCEE270072B4AC /* DesafioSantanderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23F7558A22CCEE270072B4AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F7557322CCEE260072B4AC /* DesafioSantander */;
+			targetProxy = 23F7558922CCEE270072B4AC /* PBXContainerItemProxy */;
+		};
+		23F7559522CCEE270072B4AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F7557322CCEE260072B4AC /* DesafioSantander */;
+			targetProxy = 23F7559422CCEE270072B4AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23F7557B22CCEE260072B4AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23F7557C22CCEE260072B4AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23F7558022CCEE270072B4AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23F7558122CCEE270072B4AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23F7559A22CCEE270072B4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23F7559B22CCEE270072B4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23F7559D22CCEE270072B4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioSantander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = accenture.com.CampeoesDaCopa2.DesafioSantander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23F7559E22CCEE270072B4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioSantander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = accenture.com.CampeoesDaCopa2.DesafioSantander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23F755A022CCEE270072B4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioSantanderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = accenture.com.CampeoesDaCopa2.DesafioSantanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioSantander.app/DesafioSantander";
+			};
+			name = Debug;
+		};
+		23F755A122CCEE270072B4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioSantanderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = accenture.com.CampeoesDaCopa2.DesafioSantanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioSantander.app/DesafioSantander";
+			};
+			name = Release;
+		};
+		23F755A322CCEE270072B4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioSantanderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = accenture.com.CampeoesDaCopa2.DesafioSantanderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesafioSantander;
+			};
+			name = Debug;
+		};
+		23F755A422CCEE270072B4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioSantanderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = accenture.com.CampeoesDaCopa2.DesafioSantanderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesafioSantander;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23F7556F22CCEE260072B4AC /* Build configuration list for PBXProject "DesafioSantander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F7559A22CCEE270072B4AC /* Debug */,
+				23F7559B22CCEE270072B4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F7559C22CCEE270072B4AC /* Build configuration list for PBXNativeTarget "DesafioSantander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F7559D22CCEE270072B4AC /* Debug */,
+				23F7559E22CCEE270072B4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F7559F22CCEE270072B4AC /* Build configuration list for PBXNativeTarget "DesafioSantanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F755A022CCEE270072B4AC /* Debug */,
+				23F755A122CCEE270072B4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F755A222CCEE270072B4AC /* Build configuration list for PBXNativeTarget "DesafioSantanderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F755A322CCEE270072B4AC /* Debug */,
+				23F755A422CCEE270072B4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23F7556C22CCEE260072B4AC /* Project object */;
+}
